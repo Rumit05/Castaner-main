@@ -3,7 +3,7 @@
 client_id = "6cc7c17d09781baca2975a3850fd628e"
 name = "Castaner Main Store App"
 handle = "castaner-main-extension"
-application_url = "https://journals-constitutional-tattoo-video.trycloudflare.com"
+application_url = "https://collective-fred-switching-rugby.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,11 +16,7 @@ include_config_on_deploy = true
 scopes = "read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_merchant_managed_fulfillment_orders,read_orders,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_orders,write_pixels,write_products,write_shipping"
 
 [auth]
-redirect_urls = [
-  "https://journals-constitutional-tattoo-video.trycloudflare.com/auth/callback",
-  "https://journals-constitutional-tattoo-video.trycloudflare.com/auth/shopify/callback",
-  "https://journals-constitutional-tattoo-video.trycloudflare.com/api/auth/callback"
-]
+redirect_urls = ["https://collective-fred-switching-rugby.trycloudflare.com/auth/callback", "https://collective-fred-switching-rugby.trycloudflare.com/auth/shopify/callback", "https://collective-fred-switching-rugby.trycloudflare.com/api/auth/callback"]
 
 [webhooks]
 api_version = "2024-01"
