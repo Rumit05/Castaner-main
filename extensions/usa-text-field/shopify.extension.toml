@@ -6,7 +6,7 @@
 api_version = "2025-07"
 
 [[extensions]]
-name = "Usa text field"
+name = "USA Text Field"
 handle = "usa-text-field"
 type = "ui_extension"
 
