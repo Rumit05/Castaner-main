@@ -3,6 +3,9 @@ api_version = "unstable"
 [[extensions]]
 name = "GLSPoints"
 handle = "glspoints"
+
+uid = "21d3ea46-8557-3b3a-626d-387b6a55ec39befc9305"
+
 type = "function"
 
 

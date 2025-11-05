@@ -1,0 +1,6 @@
+query CartPaymentMethodsTransformRunInput {
+  paymentMethods {
+    id
+    name
+  }
+}

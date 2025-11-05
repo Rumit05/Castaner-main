@@ -3,9 +3,12 @@
 
 # The version of APIs your extension will receive. Learn more:
 # https://shopify.dev/docs/api/usage/versioning
-api_version = "2024-10"
+api_version = "2025-04"
 
 [[extensions]]
+
+uid = "004facab-37b4-caa5-d57b-4fd4ed112d0afe438d62"
+
 type = "ui_extension"
 name = "Province Code Validation & TC"
 handle = "validation"

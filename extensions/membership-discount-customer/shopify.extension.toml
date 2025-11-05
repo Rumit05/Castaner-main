@@ -1,9 +1,12 @@
-api_version = "2024-07"
+api_version = "2025-04"
 
 [[extensions]]
 handle = "Employee-Discount"
 name = "t:name"
 description = "t:description"
+
+uid = "6339388b-4741-8be0-7280-142ba24db114f8c7530c"
+
 type = "function"
 
   [[extensions.targeting]]

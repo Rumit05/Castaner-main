@@ -3,9 +3,12 @@
 
 # The version of APIs your extension will receive. Learn more:
 # https://shopify.dev/docs/api/usage/versioning
-api_version = "2024-10"
+api_version = "2025-04"
 
 [[extensions]]
+
+uid = "cad70d6a-f5ef-bc4b-c1b1-14d12a74662e80516993"
+
 type = "ui_extension"
 name = "Text Note ASCII Validation"
 handle = "castaner"

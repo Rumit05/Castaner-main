@@ -8,6 +8,9 @@ api_version = "2025-04"
 [[extensions]]
 name = "Shipping USA Text"
 handle = "shipping-usa-text"
+
+uid = "2eedb21c-9b7d-8055-16bf-84db1d75a95be4badb26"
+
 type = "ui_extension"
 
 

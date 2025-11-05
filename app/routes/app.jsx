@@ -4,7 +4,7 @@ import polarisStyles from "@shopify/polaris/build/esm/styles.css";
 import { boundary } from "@shopify/shopify-app-remix/server";
 import { AppProvider } from "@shopify/shopify-app-remix/react";
 import { authenticate } from "../shopify.server";
-import { CrateDiscoutCode, changeOrderSummaryScheme, getCheckoutProfileId, getfunctionid, setFocusBorderColor, setStyling } from "./castaner server/castaner.server";
+import { CrateDiscoutCode, changeOrderSummaryScheme, getCheckoutProfileId, getfunctionid, hideMethod, setFocusBorderColor, setStyling } from "./castaner server/castaner.server";
 
 
 
@@ -22,15 +22,18 @@ export const loader = async ({ request }) => {
    let abc = await changeOrderSummaryScheme(admin.graphql,profileId[0])
    const getid = await getfunctionid(admin.graphql)
    const customercode = await CrateDiscoutCode(admin.graphql)
+   const hide_Method = await hideMethod(admin.graphql)
+
 
    
 
-  return json({ apiKey: process.env.SHOPIFY_API_KEY || "",getid,customercode,profileId, abc});
+  return json({ apiKey: process.env.SHOPIFY_API_KEY || "",getid,customercode,profileId, abc,hide_Method});
 };
 
 export default function App() {
-  const {apiKey,profileId, abc} = useLoaderData();
-   console.log(abc,"data")
+  // const {apiKey,profileId, abc,hide_Method} = useLoaderData();
+  //  console.log(abc,"dataddddddd",hide_Method)
+  //  console.log("====================>")
 
   return (
 

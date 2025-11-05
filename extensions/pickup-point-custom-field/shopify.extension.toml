@@ -8,6 +8,9 @@ api_version = "2025-04"
 [[extensions]]
 name = "Pickup point custom field"
 handle = "pickup-point-custom-field"
+
+uid = "11ff1293-b884-2dcc-cadf-1d54c2e97b01ad9a8711"
+
 type = "ui_extension"
 
 

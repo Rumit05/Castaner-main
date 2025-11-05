@@ -8,6 +8,9 @@ api_version = "2025-07"
 [[extensions]]
 name = "USA Text Field"
 handle = "usa-text-field"
+
+uid = "ce971df4-e62d-1335-e7ed-4090ef5b1e9022af08e7"
+
 type = "ui_extension"
 
 

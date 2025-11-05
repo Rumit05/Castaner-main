@@ -3,20 +3,19 @@
 client_id = "6cc7c17d09781baca2975a3850fd628e"
 name = "Castaner Main Store App"
 handle = "castaner-main-extension"
-application_url = "https://phenomenon-tmp-netherlands-ivory.trycloudflare.com"
+application_url = "https://license-klein-repairs-rca.trycloudflare.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
 dev_store_url = "ohd-mcc-development.myshopify.com"
-include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_merchant_managed_fulfillment_orders,read_orders,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_orders,write_pixels,write_products,write_shipping"
+scopes = "read_payment_customizations,write_payment_customizations,read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_merchant_managed_fulfillment_orders,read_orders,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_orders,write_pixels,write_products,write_shipping"
 
 [auth]
-redirect_urls = ["https://phenomenon-tmp-netherlands-ivory.trycloudflare.com/auth/callback", "https://phenomenon-tmp-netherlands-ivory.trycloudflare.com/auth/shopify/callback", "https://phenomenon-tmp-netherlands-ivory.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://license-klein-repairs-rca.trycloudflare.com/auth/callback", "https://license-klein-repairs-rca.trycloudflare.com/auth/shopify/callback", "https://license-klein-repairs-rca.trycloudflare.com/api/auth/callback"]
 
 [webhooks]
 api_version = "2024-01"

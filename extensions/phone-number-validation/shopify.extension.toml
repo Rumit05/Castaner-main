@@ -3,11 +3,14 @@
 
 # The version of APIs your extension will receive. Learn more:
 # https://shopify.dev/docs/api/usage/versioning
-api_version = "2024-10"
+api_version = "2025-04"
 
 [[extensions]]
 name = "Phone Number Validation"
 handle = "phone-number-validation"
+
+uid = "e80131f6-884a-87d5-648f-78f836da6c83c8d6ab0c"
+
 type = "ui_extension"
 
 

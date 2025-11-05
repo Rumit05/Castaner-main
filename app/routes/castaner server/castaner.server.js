@@ -221,3 +221,25 @@ export async function CrateDiscoutCode(graphql) {
   );
   return response.json();
 }
+
+export async function hideMethod(graphql) {
+  const response = await graphql(`
+    mutation {
+      paymentCustomizationCreate(paymentCustomization: {
+        title: "Hide payment method Klarna",
+        enabled: true,
+        functionId: "019a52b5-ec5a-7093-82f8-22cca49d5256"
+      }) {
+        paymentCustomization {
+          id
+        }
+        userErrors {
+          message
+        }
+      }
+    }
+  `);
+
+  return response.json();
+}
+
